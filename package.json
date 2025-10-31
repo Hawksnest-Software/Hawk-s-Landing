@@ -1,0 +1,53 @@
+{
+  "name": "hawks-landing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build",
+    "package": "next build && pkg . --out-path dist",
+    "package:intel": "next build && pkg . --targets node18-macos-x64 --out-path dist",
+    "package:arm": "next build && pkg . --targets node18-macos-arm64 --out-path dist"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.1.4",
+    "pkg": "^5.8.1"
+  },
+  "bin": "server.js",
+  "pkg": {
+    "assets": [
+      "out/**/*"
+    ],
+    "targets": [
+      "node18-macos-x64",
+      "node18-macos-arm64"
+    ],
+    "outputPath": "dist"
+  }
+}

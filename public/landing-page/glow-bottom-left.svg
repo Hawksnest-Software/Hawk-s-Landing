@@ -1,0 +1,14 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glowGradient">
+      <stop offset="0%" stop-color="rgba(10, 251, 106, 0.25)" />
+      <stop offset="40%" stop-color="rgba(10, 251, 106, 0.15)" />
+      <stop offset="70%" stop-color="rgba(10, 251, 106, 0)" />
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="50" />
+    </filter>
+  </defs>
+  <circle cx="250" cy="250" r="250" fill="url(#glowGradient)" filter="url(#blur)" />
+</svg>
+
