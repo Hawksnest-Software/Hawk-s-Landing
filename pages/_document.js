@@ -32,6 +32,25 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          {/* Basic Meta Tags */}
+          <meta name="description" content="Next-generation AI-powered cybersecurity. Hawksnest Software protects against malware, phishing, scams, and zero-day threats with Security Hawk." />
+          
+          {/* Open Graph Meta Tags */}
+          <meta property="og:title" content="Hawksnest Software - Defending Your Digital Nest" />
+          <meta property="og:description" content="Next-generation AI-powered cybersecurity protecting you against malware, phishing, scams, and zero-day threats." />
+          <meta property="og:type" content="website" />
+          <meta property="og:image" content="/images/hawk nest.jpg" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+          <meta property="og:image:alt" content="Hawksnest Software - Cybersecurity Protection" />
+          
+          {/* Twitter Card Meta Tags */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Hawksnest Software - Defending Your Digital Nest" />
+          <meta name="twitter:description" content="Next-generation AI-powered cybersecurity protecting you against malware, phishing, scams, and zero-day threats." />
+          <meta name="twitter:image" content="/images/hawk nest.jpg" />
+          <meta name="twitter:image:alt" content="Hawksnest Software - Cybersecurity Protection" />
+          
           <meta name="format-detection" content="telephone=no" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
