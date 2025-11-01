@@ -39,7 +39,8 @@ export default class MyDocument extends Document {
           <meta property="og:title" content="Hawksnest Software - Defending Your Digital Nest" />
           <meta property="og:description" content="Next-generation AI-powered cybersecurity protecting you against malware, phishing, scams, and zero-day threats." />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content="https://hawksnestsoftware.com/images/hawk nest.jpg" />
+          <meta property="og:url" content="https://hawksnestsoftware.com" />
+          <meta property="og:image" content="https://hawksnestsoftware.com/images/hawk-nest.jpg" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
           <meta property="og:image:alt" content="Hawksnest Software - Cybersecurity Protection" />
@@ -48,7 +49,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Hawksnest Software - Defending Your Digital Nest" />
           <meta name="twitter:description" content="Next-generation AI-powered cybersecurity protecting you against malware, phishing, scams, and zero-day threats." />
-          <meta name="twitter:image" content="/images/hawk nest.jpg" />
+          <meta name="twitter:image" content="https://hawksnestsoftware.com/images/hawk-nest.jpg" />
           <meta name="twitter:image:alt" content="Hawksnest Software - Cybersecurity Protection" />
           
           <meta name="format-detection" content="telephone=no" />
