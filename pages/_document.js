@@ -39,7 +39,7 @@ export default class MyDocument extends Document {
           <meta property="og:title" content="Hawksnest Software - Defending Your Digital Nest" />
           <meta property="og:description" content="Next-generation AI-powered cybersecurity protecting you against malware, phishing, scams, and zero-day threats." />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content="/images/hawk nest.jpg" />
+          <meta property="og:image" content="https://hawksnestsoftware.com/images/hawk nest.jpg" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
           <meta property="og:image:alt" content="Hawksnest Software - Cybersecurity Protection" />
