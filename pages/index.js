@@ -1083,7 +1083,6 @@ export default function Home() {
         <HeroSection>
           <HeroWrapper>
             <HeroContent>
-              <HeroTitle>Defending Your Digital Nest</HeroTitle>
               <HeroSubtitle>
                 Since the dawn of the millennium, cybercrime has exploded into an industry of its own.
                 Where once we had viruses that crashed our computers, now our bank accounts, identities,
@@ -1101,7 +1100,6 @@ export default function Home() {
               </Link>
               </div>
             </HeroContent>
-            <HeroImage />
           </HeroWrapper>
         </HeroSection>
 
