@@ -67,31 +67,17 @@ const HeroWrapper = styled.div`
   max-width: 1500px;
   display: flex;
   align-items: center;
+  justify-content: center;
   z-index: 3;
-  
-  @media (max-width: 1200px) {
-    justify-content: center;
-  }
 `;
 
 const HeroContent = styled.div`
   position: relative;
   max-width: 675px;
   width: 100%;
-  
-  @media (min-width: 1201px) {
-    padding-left: 0;
-  }
-  
-  @media (max-width: 1200px) {
-    max-width: 600px;
-    padding-left: 0;
-    margin: 0 auto;
-  }
+  text-align: center;
   
   @media (max-width: 768px) {
-    padding-left: 0;
-    text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
@@ -135,10 +121,6 @@ const CTAButton = styled.button`
   font-size: 20px;
   line-height: 20px;
   color: #242323;
-  
-  @media (max-width: 1200px) {
-    margin: 0 auto;
-  }
   
   @media (max-width: 768px) {
     width: 145px;
@@ -1091,7 +1073,7 @@ export default function Home() {
               <HeroSubtitle>
                 At Hawksnest Software, we're building next generation, AI-powered online protection to keep you safe against all threats - known and unknown.
               </HeroSubtitle>
-              <div style={{display: 'flex', gap: '1rem'}}>
+              <div style={{display: 'flex', gap: '1rem', justifyContent: 'center'}}>
               <Link href="/about" passHref legacyBehavior>
                 <CTAButton as="a">About Us</CTAButton>
               </Link>
